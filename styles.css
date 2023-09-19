@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600;700;900&display=swap");
+/* General styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background-color: #e0e8ff;
+  font-family: Red Hat Display;
+}
+
+.btn {
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+img {
+  pointer-events: none;
+}
+
+.bg-img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 437px;
+  width: 100%;
+  z-index: -1;
+}
+
+.summary {
+  padding: 102px 0 101px;
+}
+
+.container-spacer {
+  width: 450px;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.15);
+  overflow: hidden;
+  background: #fff;
+}
+
+.card-img {
+  height: 220px;
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card-content {
+  padding: 48px;
+  background: #fff;
+}
+
+.card-name {
+  text-align: center;
+  font-style: normal;
+  margin-bottom: 20px;
+}
+
+.card-content h1 {
+  color: #1f2e55;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: normal;
+  margin-bottom: 17px;
+}
+
+.card-content p {
+  color: #717fa6;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+.annual-plan {
+  display: flex;
+  align-items: center;
+  padding: 25px 24px;
+  border-radius: 11px;
+  background: #f7f9ff;
+  margin-bottom: 32px;
+}
+
+.music-icon {
+  width: 48px;
+  height: 48px;
+  margin-right: 23px;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  font-style: normal;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.price p:first-child {
+  margin-bottom: 6px;
+  color: #1f2e55;
+  font-weight: 900;
+}
+
+.price p:last-child {
+  color: #717fa6;
+  font-weight: 500;
+}
+
+.annual-plan a {
+  color: #382ae1;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+  margin-left: auto;
+  transition: all 0.3s;
+}
+
+.annual-plan a:hover,
+.annual-plan a:active {
+  color: #766cf1;
+  text-decoration: none;
+}
+
+.btns {
+  text-align: center;
+}
+
+.payment {
+  color: #fff;
+  font-family: Red Hat Display;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  border-radius: 11px;
+  background: #382ae1;
+  box-shadow: 0px 20px 20px 0px rgba(56, 42, 225, 0.19);
+  border: none;
+  margin-bottom: 30px;
+  transition: all 0.3s;
+}
+
+.payment:hover,
+.payment:active {
+  background: #766cf1;
+}
+
+.btns a {
+  text-decoration: none;
+  color: #717fa6;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  transition: all 0.3s;
+}
+
+.btns a:hover,
+.btns a:active {
+  color: #1f2e55;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 56em) {
+  .bg-img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 194px;
+    width: 100%;
+    z-index: -1;
+  }
+
+  html {
+    overflow-x: hidden;
+  }
+
+  .summary {
+    padding: 71px 21px;
+  }
+
+  .container-spacer {
+    width: 327px;
+  }
+
+  .card-content {
+    padding: 24px;
+  }
+
+  .annual-plan {
+    padding: 17px 16px 16px;
+  }
+
+  .card-img {
+    height: 160px;
+  }
+}
+
+/* CREATED BY REZI KARANADZE */
